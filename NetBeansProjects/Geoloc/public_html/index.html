@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Utilisation de leaflet et openstreet map</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="js/libs/jquery/jquery.min.js" ></script>
+        <link href="js/libs/leaflet/leaflet.css" rel="stylesheet" type="text/css"/>
+        <script src="js/libs/leaflet/leaflet.js"></script>
+        <script src="js/osm.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <button id="showMark">Marqueur Cathédrale de Paris</button>
+        <button id="showCircle">Afficher cercle</button>
+        <button id="geoCode">Place des Jacobins</button>
+        <div id="carte" style="height: 400px;width: 600px;"></div><br/>
+        <form>
+            <input type="text" name="zoneTexte" placeholder="Saisir une adresse ici" id="zoneTexte">
+            <input class="envoyerCoord" type="button" name="envoyerCoord" value="Placer le marqueur à l'adresse" id="envoyerCoord">
+        </form>
+    </body>
+</html>

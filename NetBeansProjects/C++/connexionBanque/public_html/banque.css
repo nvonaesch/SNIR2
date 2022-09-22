@@ -1,0 +1,50 @@
+html{
+    background-color: blue;
+}
+#titreconnexion{
+    color: white;
+    font-size: 33px;
+    left: 35%;
+    position:absolute;
+}
+#formulaireBlanc{
+    background-color: white;
+    height: 530px;
+    width: 350px;
+    left: 35%;
+    position: absolute;
+    top: 10%;
+}
+.alignerTexte{
+    position: relative;
+    left: 5px;
+    color: grey;
+    width: 300px;
+        
+}
+#envoyer{
+    position: absolute;
+    left: 10px;
+    top: 480px;
+    background-color: blue;
+    color: white;
+    width: 150px;
+    height: 40px;
+}
+#effacer{
+    position: absolute;
+    left: 180px;
+    top: 480px;
+    background-color: blue;
+    color: white;
+    width: 150px;
+    height: 40px;
+}
+.touche{
+    height: 55px;
+    width: 55px;
+    background-color: blue;
+    color:white;
+    font-size: 30px;
+    margin: 11px;
+}

@@ -1,0 +1,100 @@
+@media screen and (min-width:300px)
+{
+    .boites{
+        height:100px;
+        width:100px;
+    }
+    
+    .boite1{
+        left: 50px;
+        top:5%;
+        background-color: green;
+        position:absolute;
+        padding: 50px;
+        text-align: center;
+    }
+    .boite2{
+        left:50px;
+        top:40%;
+        background-color: lime;
+        position:absolute;
+        padding: 50px;
+        text-align: center;
+        
+    }
+    .boite3{
+        left:50px;
+        top:75%;
+        background-color: pink;
+        position:absolute;
+        padding: 50px;
+        text-align: center;
+    }
+           
+}
+@media screen and (min-width:600px)
+{
+    .boites{
+        height:150px;
+        width:150px;
+    }
+    
+    .boite1{
+        left: 5%;
+        top:5%;
+        background-color: blue;
+        position:absolute;
+        padding: 50px;
+        text-align: center;
+    }
+    .boite2{
+        left:50%;
+        top:5%;
+        background-color: lime;
+        position:absolute;
+        padding: 50px;
+        text-align: center;
+    }
+    .boite3{
+        left:5%;
+        top:50%;
+        background-color: pink;
+        position:absolute;
+        padding: 50px;
+        text-align: center;
+    }
+           
+}
+@media screen and (min-width:900px)
+{
+    .boites{
+        height:180px;
+        width:180px;
+    }
+    
+    .boite1{
+        left:1%;
+        top:25%;
+        background-color: blue;
+        position:absolute;
+        padding: 50px;
+        text-align: center;
+    }
+    .boite2{
+        left:34%;
+        top:25%;
+        background-color: lime;
+        position:absolute;
+        padding: 50px;
+        text-align: center;
+    }
+    .boite3{
+        left:67%;
+        top:25%;
+        background-color: blueviolet;
+        position:absolute;
+        padding: 50px;
+        text-align: center;
+    }
+           
+}

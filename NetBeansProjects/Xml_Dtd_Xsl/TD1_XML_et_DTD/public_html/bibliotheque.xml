@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bibliotheque SYSTEM "bibliotheque.dtd">
+<?xml-stylesheet href="bibliotheque.xsl" type="text/xsl" ?>
+
+<bibliotheque>
+    <allee numero="1">
+        <rayon numero="1">
+            
+            <ouvrage type="litterature">
+                <titre>le papillon des etoiles</titre>
+                <auteur>Bernard werber</auteur>
+            </ouvrage>
+            
+            <ouvrage type="manuelScolaire">
+                <titre>	Les Formes de base </titre>
+                <auteur>Daniele Dupont </auteur>
+            </ouvrage>
+            
+            <ouvrage type="scienceEtTechnique">
+                <titre>	XML et XSL: Les feuilles de style XML</titre>
+                <auteur>Cyril Hanouna</auteur>
+            </ouvrage>
+        </rayon>
+        
+        <rayon numero="2">
+            
+            <ouvrage type="periodique">
+                <titre>LINUX Magazine</titre>
+                <numero>102</numero>
+            </ouvrage>
+            
+            <ouvrage type="periodique">
+                <titre>closer</titre>
+            </ouvrage>
+            
+            <ouvrage type="litterature">
+                <titre>Harry Potter</titre>
+                <auteur>JK Rowling</auteur>
+                <numero>1</numero>
+            </ouvrage>
+            
+        </rayon>
+    </allee>
+    
+    <allee numero="2">
+        <rayon numero="1">
+            
+            <ouvrage type="litterature">
+                <titre>Jeu de nains</titre>
+                <auteur>Terry Prowler</auteur>
+                <numero>31</numero>
+            </ouvrage>
+            
+        </rayon>
+        <rayon numero="2">
+            
+            <ouvrage type="litterature">
+                <titre>L'incident Jesus</titre>
+                <auteur>Jean Némarre</auteur>
+                <numero>2</numero>
+            </ouvrage>
+            
+            <ouvrage type="scienceEtTechnique">
+                <titre>Ajax, jQuery et PHP</titre>
+                <auteur>Jean-marie Gaspar de Barros</auteur>
+            </ouvrage>
+            
+        </rayon>
+    </allee>
+</bibliotheque>
+

@@ -1,0 +1,59 @@
+.cadre1{
+    border-color: blue;
+    border-radius: 2px;
+    width: 98%;
+    height: 25%;
+    border: blue 2px;
+    position:absolute;
+    border-style: solid;
+}
+.cadre2{
+    border-color: blue;
+    border-radius: 2px;
+    position: absolute;
+    height: 45%;
+    width: 48.5%;
+    border-style: solid;
+    top: 26.9%;
+    
+}
+.cadre3{
+    border-color: blue;
+    border-radius: 2px;
+    position: absolute;
+    height: 45%;
+    width: 48%;
+    border-style: solid;
+    left: 50.5%;
+    top: 26.9%;
+}
+.tableau{
+    text-align: center;
+    position: relative;
+    margin-left:31%;
+    position:relative;
+    background-color: #E1DC60;
+    height: 215px;
+    width:600px;
+}
+#image{
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    right:9%;
+}
+.italique{
+    font-style: italic;
+}
+h3 {
+    color: blue;
+    text-align:center;
+}
+.titreliste{
+    font-weight: bold;
+    
+}
+#listeordo {
+    list-style-type: disc;
+    text-align: center;
+}

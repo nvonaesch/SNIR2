@@ -1,0 +1,41 @@
+.boite1 {
+    position: relative;
+    width: 200px;
+    height: 300px;
+    background-color: pink;
+    z-index: 1;
+    
+    
+}
+.boite2 {
+    position: relative;
+    width: 200px;
+    height: 300px;
+    background-color: yellow;
+    z-index: 2;
+    margin-top: -15.8%;
+    margin-left: 5.8%;
+}
+
+.boite3 {
+    position: relative;
+    width: 200px;
+    height: 300px;
+    background-color: cyan;
+    z-index: 3;
+    margin-top: -15.8%;
+    margin-left: 10.8%;
+}
+
+.boite4 {
+    position: relative;
+    width: 200px;
+    height: 300px;
+    background-color: lime;
+    z-index: 4;
+    margin-top: -15.8%;
+    margin-left: 15.8%;
+    
+}
+
+

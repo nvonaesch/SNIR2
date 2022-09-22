@@ -1,0 +1,46 @@
+html{
+    line-height: 1.6em;
+}
+#civilites {
+    background-color: #F6AC4F;
+    position: absolute;
+    width: 45%;
+    height: 40%;
+    margin-right: 50%;
+}
+#Savoirs {
+    background-color: forestgreen;
+    position: absolute;
+    width: 45%;
+    height: 40%;
+    margin-left: 48%;
+}
+#formulaire{
+    background-color: darksalmon;
+    height: 80%;
+    width: 100%;
+    position: absolute;
+}
+#parametreconnexion{
+    background-color: yellow;
+    position: absolute;
+    height: 40%;
+    width: 93%;
+    margin-top: 18%;
+}
+.alignes{
+    position: inherit;
+    left:300px;
+}
+.alignesgauche{
+    position:inherit;
+    margin-left: 50px;
+}
+.alignespoints{
+    position: inherit;
+    left:320px;
+}
+.alignesconnexion{
+    position: inherit;
+    left:600px;
+}

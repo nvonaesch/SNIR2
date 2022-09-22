@@ -1,0 +1,134 @@
+\hypertarget{classipv4}{}\doxysection{Référence de la classe ipv4}
+\label{classipv4}\index{ipv4@{ipv4}}
+
+
+{\ttfamily \#include $<$ipv4.\+h$>$}
+
+\doxysubsection*{Fonctions membres publiques}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classipv4_af33f87919b95559abd2eb8b4f11181ff}{ipv4}} (const unsigned char $\ast$\+\_\+adresse, const unsigned char \+\_\+cidr)
+\item 
+\mbox{\hyperlink{classipv4_a8b4b38d358610a562c8b23a51a669a25}{ipv4}} (const unsigned char $\ast$\+\_\+adresse, const unsigned char $\ast$\+\_\+masque)
+\item 
+\mbox{\hyperlink{classipv4_a8e331a143018b2e8a8daaacf96aa0c9e}{$\sim$ipv4}} ()
+\item 
+void \mbox{\hyperlink{classipv4_a5e05fbf7546afefe97e8169b6efb2da7}{Obtenir\+Masque}} (unsigned char $\ast$\+\_\+masque)
+\item 
+void \mbox{\hyperlink{classipv4_afb22b4f04ceca18c1ecc545a476f84d3}{Obtenir\+Adresse\+Reseau}} (unsigned char $\ast$\+\_\+reseau)
+\item 
+void \mbox{\hyperlink{classipv4_a911a7a5e056945dbb8990bf974e6b518}{Obtenir\+Adresse\+Diffusion}} (unsigned char $\ast$\+\_\+diffusion)
+\item 
+void \mbox{\hyperlink{classipv4_aa139d4b620addfd603cd546c66392d67}{Obtenir\+Adresse\+Premiere\+Machine}} (unsigned char $\ast$\+\_\+premiere\+Adresse)
+\item 
+void \mbox{\hyperlink{classipv4_a4cec7edafca9393a790bb92940c18f06}{Obtenir\+Adresse\+Derniere\+Machine}} (unsigned char $\ast$\+\_\+derniere\+Adresse)
+\item 
+unsigned int \mbox{\hyperlink{classipv4_add924f79ba97a91b17e43166071768cd}{Obtenir\+Nombre\+Machines}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Fonctions membres privées}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{classipv4_a82b3b086a490fd380f3462abe9bfea10}{Nb\+Bit\+A1}} (unsigned char val)
+\item 
+void \mbox{\hyperlink{classipv4_a596ae207f4f696e26606f61a2891eaf3}{Calculer\+Masque}} (unsigned char \+\_\+cidr)
+\end{DoxyCompactItemize}
+\doxysubsection*{Attributs privés}
+\begin{DoxyCompactItemize}
+\item 
+unsigned char $\ast$ \mbox{\hyperlink{classipv4_ad5b908b4365006482d9d01a12c471b1c}{adresse}}
+\item 
+unsigned char $\ast$ \mbox{\hyperlink{classipv4_a7163e0b7f90ab558cc56a90c62f07e35}{masque}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Documentation des constructeurs et destructeur}
+\mbox{\Hypertarget{classipv4_af33f87919b95559abd2eb8b4f11181ff}\label{classipv4_af33f87919b95559abd2eb8b4f11181ff}} 
+\index{ipv4@{ipv4}!ipv4@{ipv4}}
+\index{ipv4@{ipv4}!ipv4@{ipv4}}
+\doxysubsubsection{\texorpdfstring{ipv4()}{ipv4()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily ipv4\+::ipv4 (\begin{DoxyParamCaption}\item[{const unsigned char $\ast$}]{\+\_\+adresse,  }\item[{const unsigned char}]{\+\_\+cidr }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classipv4_a8b4b38d358610a562c8b23a51a669a25}\label{classipv4_a8b4b38d358610a562c8b23a51a669a25}} 
+\index{ipv4@{ipv4}!ipv4@{ipv4}}
+\index{ipv4@{ipv4}!ipv4@{ipv4}}
+\doxysubsubsection{\texorpdfstring{ipv4()}{ipv4()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily ipv4\+::ipv4 (\begin{DoxyParamCaption}\item[{const unsigned char $\ast$}]{\+\_\+adresse,  }\item[{const unsigned char $\ast$}]{\+\_\+masque }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classipv4_a8e331a143018b2e8a8daaacf96aa0c9e}\label{classipv4_a8e331a143018b2e8a8daaacf96aa0c9e}} 
+\index{ipv4@{ipv4}!````~ipv4@{$\sim$ipv4}}
+\index{````~ipv4@{$\sim$ipv4}!ipv4@{ipv4}}
+\doxysubsubsection{\texorpdfstring{$\sim$ipv4()}{~ipv4()}}
+{\footnotesize\ttfamily ipv4\+::$\sim$ipv4 (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Documentation des fonctions membres}
+\mbox{\Hypertarget{classipv4_a596ae207f4f696e26606f61a2891eaf3}\label{classipv4_a596ae207f4f696e26606f61a2891eaf3}} 
+\index{ipv4@{ipv4}!CalculerMasque@{CalculerMasque}}
+\index{CalculerMasque@{CalculerMasque}!ipv4@{ipv4}}
+\doxysubsubsection{\texorpdfstring{CalculerMasque()}{CalculerMasque()}}
+{\footnotesize\ttfamily void ipv4\+::\+Calculer\+Masque (\begin{DoxyParamCaption}\item[{unsigned char}]{\+\_\+cidr }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classipv4_a82b3b086a490fd380f3462abe9bfea10}\label{classipv4_a82b3b086a490fd380f3462abe9bfea10}} 
+\index{ipv4@{ipv4}!NbBitA1@{NbBitA1}}
+\index{NbBitA1@{NbBitA1}!ipv4@{ipv4}}
+\doxysubsubsection{\texorpdfstring{NbBitA1()}{NbBitA1()}}
+{\footnotesize\ttfamily int ipv4\+::\+Nb\+Bit\+A1 (\begin{DoxyParamCaption}\item[{unsigned char}]{val }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classipv4_a4cec7edafca9393a790bb92940c18f06}\label{classipv4_a4cec7edafca9393a790bb92940c18f06}} 
+\index{ipv4@{ipv4}!ObtenirAdresseDerniereMachine@{ObtenirAdresseDerniereMachine}}
+\index{ObtenirAdresseDerniereMachine@{ObtenirAdresseDerniereMachine}!ipv4@{ipv4}}
+\doxysubsubsection{\texorpdfstring{ObtenirAdresseDerniereMachine()}{ObtenirAdresseDerniereMachine()}}
+{\footnotesize\ttfamily void ipv4\+::\+Obtenir\+Adresse\+Derniere\+Machine (\begin{DoxyParamCaption}\item[{unsigned char $\ast$}]{\+\_\+derniere\+Adresse }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classipv4_a911a7a5e056945dbb8990bf974e6b518}\label{classipv4_a911a7a5e056945dbb8990bf974e6b518}} 
+\index{ipv4@{ipv4}!ObtenirAdresseDiffusion@{ObtenirAdresseDiffusion}}
+\index{ObtenirAdresseDiffusion@{ObtenirAdresseDiffusion}!ipv4@{ipv4}}
+\doxysubsubsection{\texorpdfstring{ObtenirAdresseDiffusion()}{ObtenirAdresseDiffusion()}}
+{\footnotesize\ttfamily void ipv4\+::\+Obtenir\+Adresse\+Diffusion (\begin{DoxyParamCaption}\item[{unsigned char $\ast$}]{\+\_\+diffusion }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classipv4_aa139d4b620addfd603cd546c66392d67}\label{classipv4_aa139d4b620addfd603cd546c66392d67}} 
+\index{ipv4@{ipv4}!ObtenirAdressePremiereMachine@{ObtenirAdressePremiereMachine}}
+\index{ObtenirAdressePremiereMachine@{ObtenirAdressePremiereMachine}!ipv4@{ipv4}}
+\doxysubsubsection{\texorpdfstring{ObtenirAdressePremiereMachine()}{ObtenirAdressePremiereMachine()}}
+{\footnotesize\ttfamily void ipv4\+::\+Obtenir\+Adresse\+Premiere\+Machine (\begin{DoxyParamCaption}\item[{unsigned char $\ast$}]{\+\_\+premiere\+Adresse }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classipv4_afb22b4f04ceca18c1ecc545a476f84d3}\label{classipv4_afb22b4f04ceca18c1ecc545a476f84d3}} 
+\index{ipv4@{ipv4}!ObtenirAdresseReseau@{ObtenirAdresseReseau}}
+\index{ObtenirAdresseReseau@{ObtenirAdresseReseau}!ipv4@{ipv4}}
+\doxysubsubsection{\texorpdfstring{ObtenirAdresseReseau()}{ObtenirAdresseReseau()}}
+{\footnotesize\ttfamily void ipv4\+::\+Obtenir\+Adresse\+Reseau (\begin{DoxyParamCaption}\item[{unsigned char $\ast$}]{\+\_\+reseau }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classipv4_a5e05fbf7546afefe97e8169b6efb2da7}\label{classipv4_a5e05fbf7546afefe97e8169b6efb2da7}} 
+\index{ipv4@{ipv4}!ObtenirMasque@{ObtenirMasque}}
+\index{ObtenirMasque@{ObtenirMasque}!ipv4@{ipv4}}
+\doxysubsubsection{\texorpdfstring{ObtenirMasque()}{ObtenirMasque()}}
+{\footnotesize\ttfamily void ipv4\+::\+Obtenir\+Masque (\begin{DoxyParamCaption}\item[{unsigned char $\ast$}]{\+\_\+masque }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classipv4_add924f79ba97a91b17e43166071768cd}\label{classipv4_add924f79ba97a91b17e43166071768cd}} 
+\index{ipv4@{ipv4}!ObtenirNombreMachines@{ObtenirNombreMachines}}
+\index{ObtenirNombreMachines@{ObtenirNombreMachines}!ipv4@{ipv4}}
+\doxysubsubsection{\texorpdfstring{ObtenirNombreMachines()}{ObtenirNombreMachines()}}
+{\footnotesize\ttfamily unsigned int ipv4\+::\+Obtenir\+Nombre\+Machines (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Documentation des données membres}
+\mbox{\Hypertarget{classipv4_ad5b908b4365006482d9d01a12c471b1c}\label{classipv4_ad5b908b4365006482d9d01a12c471b1c}} 
+\index{ipv4@{ipv4}!adresse@{adresse}}
+\index{adresse@{adresse}!ipv4@{ipv4}}
+\doxysubsubsection{\texorpdfstring{adresse}{adresse}}
+{\footnotesize\ttfamily unsigned char$\ast$ ipv4\+::adresse\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classipv4_a7163e0b7f90ab558cc56a90c62f07e35}\label{classipv4_a7163e0b7f90ab558cc56a90c62f07e35}} 
+\index{ipv4@{ipv4}!masque@{masque}}
+\index{masque@{masque}!ipv4@{ipv4}}
+\doxysubsubsection{\texorpdfstring{masque}{masque}}
+{\footnotesize\ttfamily unsigned char$\ast$ ipv4\+::masque\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+La documentation de cette classe a été générée à partir des fichiers suivants \+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{ipv4_8h}{ipv4.\+h}}\item 
+\mbox{\hyperlink{ipv4_8cpp}{ipv4.\+cpp}}\end{DoxyCompactItemize}

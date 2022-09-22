@@ -1,0 +1,204 @@
+.module1{
+    background-image: url('images/cisco.jpg');
+    border: blue 3px;
+    position:absolute;
+    width: 30%;
+    height: 20%;
+    border-style: solid;
+    border-color: purple;
+    display: block;
+    background-size: 100% 150%;
+}
+.module2{
+    background-image: url('images/cisco.jpg');
+    border: blue 3px;
+    position:absolute;
+    width: 30%;
+    height: 20%;
+    border-style: solid;
+    border-color: purple;
+    display: block;
+    background-size: 100% 150%;
+    left:31.5%;
+}
+.module3{
+    background-image: url('images/cisco.jpg');
+    border: blue 3px;
+    position:absolute;
+    width: 30%;
+    height: 20%;
+    border-style: solid;
+    border-color: purple;
+    display: block;
+    background-size: 100% 150%;
+    left:62.4%;
+}
+.module4{
+    background-image: url('images/cisco.jpg');
+    border: blue 3px;
+    position:absolute;
+    width: 30%;
+    height: 20%;
+    border-style: solid;
+    border-color: purple;
+    display: block;
+    background-size: 100% 150%;
+    top: 22%;
+}
+.module5{
+    background-image: url('images/cisco.jpg');
+    border: blue 3px;
+    position:absolute;
+    width: 30%;
+    height: 20%;
+    border-style: solid;
+    border-color: purple;
+    display: block;
+    background-size: 100% 150%;
+    top: 22%;
+    left:31.5%;
+}
+.module6{
+    background-image: url('images/cisco.jpg');
+    border: blue 3px;
+    position:absolute;
+    width: 30%;
+    height: 20%;
+    border-style: solid;
+    border-color: purple;
+    display: block;
+    background-size: 100% 150%;
+    top: 22%;
+    left:62.4%;
+}
+.module7{
+    background-image: url('images/cisco.jpg');
+    border: blue 3px;
+    position:absolute;
+    width: 30%;
+    height: 20%;
+    border-style: solid;
+    border-color: purple;
+    display: block;
+    background-size: 100% 150%;
+    top: 43%;
+}
+.module8{
+    background-image: url('images/cisco.jpg');
+    border: blue 3px;
+    position:absolute;
+    width: 30%;
+    height: 20%;
+    border-style: solid;
+    border-color: purple;
+    display: block;
+    background-size: 100% 150%;
+    top: 43%;
+    left:31.5%;
+}
+.module9{
+    background-image: url('images/cisco.jpg');
+    border: blue 3px;
+    position:absolute;
+    width: 30%;
+    height: 20%;
+    border-style: solid;
+    border-color: purple;
+    display: block;
+    background-size: 100% 150%;
+    top: 43%;
+    left:62.4%;
+}
+.module10{
+    background-image: url('images/cisco.jpg');
+    border: blue 3px;
+    position:absolute;
+    width: 30%;
+    height: 20%;
+    border-style: solid;
+    border-color: purple;
+    display: block;
+    background-size: 100% 150%;
+    top: 64%;
+    left:15.3%;
+}
+.module11{
+    background-image: url('images/cisco.jpg');
+    border: blue 3px;
+    position:absolute;
+    width: 30%;
+    height: 20%;
+    border-style: solid;
+    border-color: purple;
+    display: block;
+    background-size: 100% 150%;
+    top: 64%;
+    left:46%;
+}
+p {
+    background-color: white;
+    text-align: center;
+    width: 140px;
+    height: 20px;
+    position: relative;
+    left:30%;
+    bottom:5%;    
+}
+.liste{
+    font-size:15px;
+}
+.module1:hover{
+  display: block;
+  background: white;
+  border-color: red;
+}
+.module2:hover{
+  display: block;
+  background: white;
+  border-color: red;
+}
+.module3:hover{
+  display: block;
+  background: white;
+  border-color: red;
+}
+.module4:hover{
+  display: block;
+  background: white;
+  border-color: red;
+}
+.module5:hover{
+  display: block;
+  background: white;
+  border-color: red;
+}
+.module6:hover{
+  display: block;
+  background: white;
+  border-color: red;
+}
+.module7:hover{
+  display: block;
+  background: white;
+  border-color: red;
+}
+.module8:hover{
+  display: block;
+  background: white;
+  border-color: red;
+}
+.module9:hover{
+  display: block;
+  background: white;
+  border-color: red;
+}
+.module10:hover{
+  display: block;
+  background: white;
+  border-color: red;
+}
+.module11:hover{
+  display: block;
+  background: white;
+  border-color: red;
+}

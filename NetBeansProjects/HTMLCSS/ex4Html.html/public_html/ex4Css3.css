@@ -1,0 +1,33 @@
+@keyframes tomchingchenghanji{
+    0%{background:red; left:25%; top:25% }
+    10%{background:pink; left:30%; top:25% }
+    20%{background:blue; left:35%; top:25% }
+    30%{background:yellow; left:40%; top:25% }
+    40%{background:brown; left:45%; top:25% }
+    50%{background:lime; left:50%; top:25% }
+    60%{background:cyan; left:55%; top:25% }
+    70%{background:orange; left:60%; top:25% }
+    80%{background:turquoise; left:65%; top:25% }
+    90%{background:red; left:70%; top:25% }
+    100%{background:lime; left:75%; top:25% }
+}
+.clique:active{
+    background-color: red;
+    width: 80px;
+    height: 120px;
+    top: 25%;
+    left: 25%;
+    position: relative;
+    animation: tomchingchenghanji 4s 0s infinite alternate;
+}
+.ecran{
+}
+.clique{
+    background-color: white;
+    width: 80px;
+    height: 120px;
+    top: 25%;
+    left: 25%;
+    position: relative;
+    border: dashed;
+}

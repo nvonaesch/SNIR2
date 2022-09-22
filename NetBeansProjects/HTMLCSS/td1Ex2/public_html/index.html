@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>Cliquez sur un endroit de la ville</div>
+
+        <img src="imagesPourMap/mapPrincipale.jpg" style="width: 756px; height: 500px;" usemap="#mapPrincipal" alt="lemans" />
+        <map name="mapPrincipal">
+            <area shape="rect" coords="381,213,424,262" href="imagesPourMap/mapPlaceRepublique.jpg" alt="republique" target="republique" />
+            <area shape="circle" coords="429,353,21" href="imagesPourMap/mapLycee.jpg" alt="lycee" target="lycee" />
+            <area shape="poly" coords="75,103,128,85,225,137,223,233,137,272,61,211" href="imagesPourMap/mapUniversite" alt="universite" target="universite" />
+        </map>
+        <div>l'iframe
+            <iframe width="496" height="302" name="republique" id="republique" style="border: none;"></iframe>
+            <iframe width="496" height="302" name="lycee" id="lycee" style="border: none;"></iframe>
+            <iframe width="496" height="302" name="universite" id="universite" style="border: none;"></iframe>
+        </div>
+</html>

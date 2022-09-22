@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="formExo1.css">
+    </head>
+    <body>
+        <fieldset id="formulaire" >
+            <legend>Formulaire d'inscription</legend>
+            <fieldset id="civilites" >
+                <legend>Civilités</legend>
+                
+                <label class="alignesgauche" for="nom" id="label-nom">Nom</label>
+                <input type="text" name="nom" id="nom" class="alignes" required="required"/><br/>
+                
+                <label class="alignesgauche" for="prenom" id="label-prenom">Prénom</label>
+                <input type="text" name="prenom" id="prenom" class="alignes" required="required"/><br/>
+                
+                <label class="alignesgauche" for="ville" id="label-ville">Ville</label>
+                <select class="alignes" name="ville" id="ville">
+                    <option  value="Autre">Autre</option>
+                </select><br/>
+                
+                <label class="alignesgauche" for="email" id="label-email">Email</label>
+                <input type="email" name="email" id="email" class="alignes" required="required"/><br/>
+                <label class="alignesgauche" for="Site" id="label-site">Site</label>
+                <input type="url" name="Site" id="Site" class="alignes" required="required"/><br/>
+                
+                <input class="alignes" type="radio" name="choix1" id="masculin" required="required">
+                <label class="alignespoints" for="feminin" id="choix1-label">Masculin</label><br/>
+                <input class="alignes" type="radio" name="choix2" id="feminin" required="required">
+                <label class="alignesgauche" for="merde" id="choix2-label2" >Sexe:</label>
+                <label class="alignespoints" for="merde" id="choix2-label">Féminin</label><br/>
+                <input class="alignes" type="radio" name="choix3" id="merde" required="required">
+                <label class="alignespoints" for="merde" id="choix3-label">Je ne souhaite pas le dire</label><br/>
+                
+                <label class="alignesgauche" for="fichier" id="fichier-label" >Photo</label>
+                <input class="alignes" type="file" name="fichier" id="fichier" required="required"/>
+            </fieldset>
+
+            <fieldset id="Savoirs">
+                <legend id="Savoirstitre">Savoirs</legend>
+
+            </fieldset>
+
+            <fieldset id="parametreconnexion" >
+                <legend>Paramètres de Connexions</legend>
+                <label class="alignesgauche" for="login" id="label-login">Login</label>
+                <input class="alignesconnexion" type="text" name="login" id="login" required="required"><br/>
+                <label class="alignesgauche" for="pwd" id="label-pwd">Mot de passe</label>
+                <input class="alignesconnexion" type="password" name="pwd" id="pwd" required="required"><br/>
+                <label class="alignesgauche" for="confpwd" id="label-confpwd">Confirmation du mot de passe</label>
+                <input class="alignesconnexion" type="password" name="confpwd" id="confpwd" required="required"><br/>
+            </fieldset>
+        </fieldset>
+    </body>
+</html>

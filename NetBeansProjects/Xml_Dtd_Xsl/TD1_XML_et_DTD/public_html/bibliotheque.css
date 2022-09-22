@@ -1,0 +1,15 @@
+table{
+    border-collapse: collapse;
+    border: 2px blue;
+}
+tr,th,td{
+    border:2px ridge black;
+}
+h1{
+    border:5px ridge black;
+    background-color: #CCCCFF;
+}
+h3{
+    border:5px ridge black;
+    background-color: #CCFFFF;
+}

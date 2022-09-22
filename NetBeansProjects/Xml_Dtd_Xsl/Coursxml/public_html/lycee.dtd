@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT lycee (classe+)>
+<!ELEMENT classe (eleve*,prof*)>
+<!ELEMENT eleve (nom?,prenom?,age?)>
+<!ELEMENT prof (nom?,prenom?,age?)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT prenom (#PCDATA)>
+<!ELEMENT age (#PCDATA)>
+
+<!ATTLIST classe nom CDATA #IMPLIED>

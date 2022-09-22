@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT livre (#PCDATA)>
+<!ELEMENT recette (#PCDATA)>
+<!ELEMENT type (etapes+)>
+<!ELEMENT etapes (#PCDATA)>
+<!ELEMENT instruction (#PCDATA)>
+<!ELEMENT conseil (#PCDATA)>
+<!ELEMENT cuisson (#PCDATA)>
+
+

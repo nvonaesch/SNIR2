@@ -1,0 +1,27 @@
+.rechercher{
+    border: 1px solid green;
+    margin: 2px;
+    padding: 40px;
+    border-radius: 4px;
+    width: 250px;
+    background-color: #c6f7db
+}
+#suggestions{
+    float: left;
+    list-style: none;
+    padding: 0;
+    margin-top: -16px;
+    width: 179px;
+    margin-left: -39px;
+    position: absolute;
+}
+#suggestions li{
+    padding: 10px;
+    background: #f0f0f0;
+    border-bottom: #bbb8d9 1px solid;
+    list-style-type: none;
+}
+#suggestions li:hover{
+    background: burlywood;
+    cursor: pointer;
+}

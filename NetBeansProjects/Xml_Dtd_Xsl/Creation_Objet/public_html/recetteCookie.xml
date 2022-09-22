@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE livre SYSTEM 'recetteCookie.dtd'>
+
+<livre>
+    <recette>Recette pour Cookie !
+        <type>dessert
+            <etape>1.
+                <instruction>Laissez ramollir le beurre à température ambiante. Dans un saladier, malaxez-le avec le sucre. </instruction>
+                <conseil>Le malaxer avec les mains</conseil>
+            </etape>
+            <etape>2.
+                <instruction>Ajoutez l'oeuf et éventuellement le sucre vanillé. </instruction>
+                <conseil>Ne pas mettre de coquille d'oeufs</conseil>
+            </etape>
+            <etape>3.
+                <instruction>Versez progressivement la farine, la levure chimique, le sel et les pépites de chocolat. Mélangez bien. </instruction>
+                <conseil>Bien mélanger</conseil>
+            </etape>
+            <etape>4.
+                <instruction>Beurrez une plaque allant au four ou recouvrez-la d'une plaque de silicone. À l'aide de deux cuillères à soupe ou simplement avec les mains, formez des noix de pâte en les espaçant car elles s'étaleront à la cuisson. </instruction>
+                <conseil>Beurrez la plaque avec du beurre</conseil>
+                <cuisson>8 à 10 minutes à 180°C soit thermostat 6.</cuisson>
+            </etape>
+        </type>
+    </recette>
+</livre>
+

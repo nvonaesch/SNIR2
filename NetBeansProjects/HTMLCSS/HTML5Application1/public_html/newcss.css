@@ -1,0 +1,36 @@
+.titre {
+    border:ridge;
+    text-align: center;
+    width: 40%;
+    margin:auto;
+}
+.cadre1 {
+    width:20%;
+    border: groove;
+    color: pink;
+    border-color: blue;
+    text-align: center;
+}
+.cadre2 {
+    position: relative;
+    left: 5%;
+    background-color: rgb(210,180,140);
+    text-align: center;
+    width: 200px;
+    
+    
+}
+.texteniv1 {
+    font-family: Courier New;
+    heigth: 10px;
+    position: relative;
+    left: 5%;
+    font-size: small;
+}
+.texteniv2 {
+    font-family: Time New Roman;
+    position: relative;
+    left: 10%;
+    font-size: medium;
+
+}

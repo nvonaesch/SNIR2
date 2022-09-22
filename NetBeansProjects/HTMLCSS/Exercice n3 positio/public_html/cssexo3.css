@@ -1,0 +1,32 @@
+#cadreBasDroit { 
+    position:relative;
+    background-color: blue;
+    width: 640px;
+    height: 300px;
+    margin-top: -23.8%;
+    
+}
+#cadreBasGauche {
+    position:relative;
+    background-color: pink;
+    width: 640px;
+    height: 300px;
+    margin-left: 640px;
+    
+}
+#cadreHautGauche {
+    position:relative;
+    background-color: brown;
+    width: 640px;
+    height: 300px;
+    
+}
+#cadreHautDroit {
+    position:relative;
+    background-color: yellow;
+    width: 640px;
+    height: 300px;
+    margin-left: 640px;
+    margin-top: -23.8%;
+    
+}
